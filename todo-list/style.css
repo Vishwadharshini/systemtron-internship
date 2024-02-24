@@ -109,6 +109,9 @@ ul li span:hover{
         padding: 20px 30px 70px;
     }
     button{
-        padding: 16px 20px;
+        padding: 10px 10px;
+    }
+    .todo-app h2{
+        font-size: 25px;
     }
 }
