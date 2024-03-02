@@ -1,0 +1,48 @@
+body{
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+#gameboard{
+    height: 350px;
+    width: 400px;
+    background-color: blue;
+    border: 5px solid black;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    background-color: white;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+.red-piece{
+    background-color: red;
+}
+
+
+.yellow-piece{
+    background-color:yellow;
+}
+
+@media(max-width:480px){
+    #gameboard{
+        height: 280px;
+        width: 340px;
+    }
+
+    .tile{
+        width: 20px;
+        height: 20px;
+    }
+    .h1{
+        font-size: 10px;
+    }
+}
